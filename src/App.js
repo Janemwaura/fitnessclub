@@ -1,8 +1,9 @@
 import './App.css';
+import Hero from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Hero.jsx'
 function App() {
   return (
     <div className="App">
-          <span style={{color: 'white'}}>Subscribe Zainkeepscode</span>
+          <Hero/>
     </div>
   );
 }
