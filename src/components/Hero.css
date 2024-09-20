@@ -108,7 +108,7 @@
     background-color: #363d42;
     width: fit-content;
     padding: 1rem;
-    align-items: start;
+    align-items: flex-start;
     border-radius: 5px;
     position: absolute;
     right: 4rem;
@@ -150,5 +150,17 @@
 }
 .calories > img{
     width: 3rem;
-    
+
+}
+.calories > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calories > div > :nth-child(1){
+    color: #363d42;
+}
+.calories > div > :nth-child(2){
+    color: white;
+    font-size: 1.5rem;
 }
