@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className="hero-text">
                     <div>
                         <span className='stroke-text'>Shape</span> 
-                        <span>Your</span>
+                        <span> Your </span>
 
                     </div>
                     <div>
