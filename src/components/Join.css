@@ -1,0 +1,81 @@
+.Join{
+ display: flex;
+ padding: 0 2rem;
+ gap: 10rem;
+}
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.left-j>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+
+}
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.email-container {
+    display: flex;
+    flex-direction: column; /* Change to column for vertical stacking */
+    gap: 0.5rem; /* Adjust gap for spacing */
+    background-color: gray;
+    padding: 0.5rem 1rem;
+    max-width: 310px;
+    margin-left: 55%;
+    position: relative;
+}
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgrayz);
+}
+
+::placeholder{
+    color: var(--lightgray);
+}
+.btn-j{
+    background-color: var(--orange);
+    color: white;
+    
+}
+.btn-j:hover{
+    background: #fa5042;
+
+}
+/* Other existing styles */
+
+.success-message {
+    color: white; /* Matches the button and HR color */
+    font-size: 1rem;    /* Slightly larger for visibility */
+    font-weight: bold;    /* Matches the bold style of text */
+     /* Consistent with the left-j section */
+    margin-bottom: 2rem;     /* Adds space below the form */
+    text-align: center; 
+    position: relative;
+    
+     /* Centers the message */
+}
+
+.error-message {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15rem;
+    text-align: center;
+}

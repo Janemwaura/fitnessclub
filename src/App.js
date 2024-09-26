@@ -4,6 +4,7 @@ import Programs from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter
 import Reasons from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Reasons.jsx'
 import Plans from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Plans.jsx'
 import Testimonials from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Testimonials.jsx'
+import Join from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Join.jsx'
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
           <Reasons />
           <Plans />
           <Testimonials />
+          <Join />
     </div>
   );
 }
