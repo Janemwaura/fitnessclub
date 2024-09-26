@@ -3,6 +3,7 @@ import Hero from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src
 import Programs from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Programs.jsx'
 import Reasons from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Reasons.jsx'
 import Plans from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Plans.jsx'
+import Testimonials from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/components/Testimonials.jsx'
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
           <Programs />
           <Reasons />
           <Plans />
+          <Testimonials />
     </div>
   );
 }
