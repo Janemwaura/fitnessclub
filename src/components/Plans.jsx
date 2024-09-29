@@ -7,9 +7,13 @@ import './Plans.css'
 const Plans = () => {
     return (
     <div className="plans-container">
+        <div className="blur plans-blur-1"></div>
+        <div className="blur plans-blur-2"></div>
         <div className="programs-header" style={{gap: '3px'}}>
             <span className='stroke-text'> READY TO START </span>
+
             <span> YOUR JOURNEY </span>
+            
             <span className='stroke-text'> WITH US </span>
         </div>
         {/* plans card */}

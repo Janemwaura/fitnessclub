@@ -16,7 +16,7 @@ const Join = () => {
       .sendForm('service_t84qsan', 'template_peoxzis', form.current)
       .then(
         () => {
-          setMessage('Thank you for joining. We will contact you shortly.');
+          setMessage('Thank you for contacting us. We will get back to you shortly.');
         },
         (error) => {
           setMessage('Failed to send mail. Please try again later.');
