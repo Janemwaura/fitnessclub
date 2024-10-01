@@ -25,7 +25,7 @@ const Header = () => {
                 smooth={true}
                 >Why us</Link></li>
                 <li><Link
-                to='Programs'
+                to='Plans'
                 span={true}
                 smooth={true}
                 >Plans</Link></li>
