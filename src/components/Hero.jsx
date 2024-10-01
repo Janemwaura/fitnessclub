@@ -6,6 +6,8 @@ import hero_image_back from '/home/janewmwaura/personalprojectportfolio/FitClub-
 import Heart from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/assets/heart.png';
 import Calories from '/home/janewmwaura/personalprojectportfolio/FitClub-Starter/src/assets/calories.png';
 import { motion } from 'framer-motion';
+import NumberCounter from 'number-counter';
+
 const Hero = () => {
     const transition = {type: 'spring', duration: 3}
     return (
@@ -46,15 +48,21 @@ const Hero = () => {
 
                 <div className="figures">
                     <div>
-                        <span>+140</span>
+                        <span>
+                            <NumberCounter end={140} start={100} delay='4' prefix='+'/>
+                        </span>
                         <span>EXPERT COACHES</span>
                         </div>
                     <div>
-                        <span>+978</span>
+                        <span>
+                        <NumberCounter end={978} start={938} delay='4' prefix='+'/>
+                        </span>
                         <span>MEMBERS JOINED</span>
                         </div>
                     <div>
-                        <span>+50</span>
+                        <span>
+                        <NumberCounter end={50} start={10} delay='4' prefix='+'/>
+                        </span>
                         <span>FITNESS PROGRAMS</span>
                         </div>
                 </div>
